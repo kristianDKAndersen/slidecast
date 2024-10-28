@@ -18,9 +18,9 @@ export default {
 </script>
 
 <template>
-  <main class="flex flex-col   items-center sm:px-2  mx-auto h-full ">
+
     <RouterView />
-  </main>
+
 </template>
 
 <style scoped>

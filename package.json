@@ -15,6 +15,8 @@
     "css:lint:check": "stylelint ./src/**/*.{css,vue}"
   },
   "dependencies": {
+    "@fontsource-variable/lexend": "^5.1.1",
+    "@types/node": "^22.7.9",
     "pinia": "^2.2.4",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
