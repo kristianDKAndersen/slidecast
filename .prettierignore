@@ -3,3 +3,8 @@ dist/
 __snapshots__/
 pnpm-lock.yaml
 *.md
+.cache
+package-lock.json
+public
+node_modules
+pnpm.lock

@@ -1,7 +1,9 @@
 <script lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 
-export default {
+import { defineComponent } from 'vue';
+
+export default defineComponent({
   
   name: 'App',
   components: {
@@ -9,11 +11,12 @@ export default {
   }, 
   setup() {
   return {
-    
+    RouterView,
+    RouterLink
   }
   }
   
-}
+});
 
 </script>
 

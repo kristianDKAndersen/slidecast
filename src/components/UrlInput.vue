@@ -1,12 +1,9 @@
-<template>
-    <!--   <input v-model="url" placeholder="add your url" /> -->
-    <div>Hej</div>
-</template>
-
 <script lang="ts">
 
 
-export default {
+import { defineComponent } from 'vue';
+
+export default defineComponent({
     name: 'UrlInput', // PascalCase is recommended for component names
     setup() {
  
@@ -15,8 +12,14 @@ export default {
             
         }
     }
-}
+});
+
 </script>
+
+<template>
+    <!--   <input v-model="url" placeholder="add your url" /> -->
+    <div>Hej</div>
+</template>
 
 <style scoped>
 </style>

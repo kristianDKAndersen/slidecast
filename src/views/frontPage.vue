@@ -1,14 +1,9 @@
-<template>
-
-    <h1 class="font-bold text-white text-lg"> Slide Cast </h1>
-    <p class="text-white text-base">This is basse</p>
-</template>
-
-
 <script lang="ts">
 
 
-export default {
+import { defineComponent } from 'vue';
+
+export default defineComponent({
     name: "FrontpageView",
     commponents: {
       
@@ -24,5 +19,13 @@ export default {
     }
 
 
-}
+});
+
 </script>
+
+
+<template>
+
+    <h1 class="text-lg font-bold text-white"> Slide Cast </h1>
+    <p class="text-base text-white">This is basse</p>
+</template>
